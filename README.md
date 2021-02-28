@@ -6,7 +6,7 @@
 
 ```
 $ git clone https://github.com/SedatBasaran14/todolist.git
-$ cd cv
+$ cd guvenlik
 $ npm install
 $ npm start
 ```
