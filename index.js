@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const app = express();
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded( {extended : true} ));
-app.use(express.static(__dirname + "/dosyalar"));
+app.use(express.static(__dirname + "/public"));
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 mongoose.connect("mongodb+srv://sedat:1234@cluster0.ro6xc.mongodb.net/Cluster0?retryWrites=true&w=majority", {useNewUrlParser: true , useUnifiedTopology : true});
