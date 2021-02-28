@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-$ git clone https://github.com/SedatBasaran14/cv.git
+$ git clone https://github.com/SedatBasaran14/todolist.git
 $ cd cv
 $ npm install
 $ npm start
